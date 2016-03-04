@@ -1,0 +1,23 @@
+//
+//  彩票.pch
+//  彩票
+//
+//  Created by Francis on 16/1/5.
+//  Copyright © 2016年 FRAJ. All rights reserved.
+//
+
+#ifndef ___pch
+#define ___pch
+
+
+#ifdef __OBJC__
+
+#import "UIView+Frame.h"
+#import "UIImage+FJ.h"
+
+#endif
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* ___pch */

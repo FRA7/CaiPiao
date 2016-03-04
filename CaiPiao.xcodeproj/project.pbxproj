@@ -1,0 +1,841 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		152953A21C3F41D100FB1FD7 /* FJPushAndReminderTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 152953A11C3F41D100FB1FD7 /* FJPushAndReminderTableViewController.m */; };
+		152953A51C3F42DD00FB1FD7 /* FJScorePushSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 152953A41C3F42DD00FB1FD7 /* FJScorePushSettingTableViewController.m */; };
+		152953A81C3F431900FB1FD7 /* FJLiveAwardSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 152953A71C3F431900FB1FD7 /* FJLiveAwardSettingTableViewController.m */; };
+		152953AE1C3F582B00FB1FD7 /* FJRootViewControllerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 152953AD1C3F582B00FB1FD7 /* FJRootViewControllerTool.m */; };
+		152953B11C3F5A5C00FB1FD7 /* FJSaveTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 152953B01C3F5A5C00FB1FD7 /* FJSaveTool.m */; };
+		1534AB361C3A96D2009085EF /* FJTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1534AB351C3A96D2009085EF /* FJTabBar.m */; };
+		1534AB391C3A98A6009085EF /* FJTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1534AB381C3A98A6009085EF /* FJTabBarButton.m */; };
+		157C3BCB1C3B5AEF00424A4B /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 157C3BCA1C3B5AEF00424A4B /* UIView+Frame.m */; };
+		157C3BCD1C3B5B8700424A4B /* FJMyLotteryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 157C3BCC1C3B5B8700424A4B /* FJMyLotteryViewController.xib */; };
+		157C3BD11C3B9A1700424A4B /* FJArenaNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157C3BD01C3B9A1700424A4B /* FJArenaNavigationViewController.m */; };
+		157C3BD61C3BA6F100424A4B /* FJButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 157C3BD51C3BA6F100424A4B /* FJButton.m */; };
+		157C3BD91C3BA8B300424A4B /* FJBuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157C3BD81C3BA8B300424A4B /* FJBuyViewController.m */; };
+		157C3BDB1C3BC77900424A4B /* FJDiscoverTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 157C3BDA1C3BC77900424A4B /* FJDiscoverTableViewController.storyboard */; };
+		157C3BE21C3BD51100424A4B /* FJNewFeatureCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157C3BE11C3BD51100424A4B /* FJNewFeatureCollectionViewController.m */; };
+		1582FBAC1C3D4CDB00C326F5 /* FJNewFeatureCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1582FBAB1C3D4CDB00C326F5 /* FJNewFeatureCollectionViewCell.m */; };
+		1582FBB31C3D69F800C326F5 /* FJBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1582FBB21C3D69F800C326F5 /* FJBaseTableViewController.m */; };
+		1582FBB61C3D6C2000C326F5 /* FJSettingGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 1582FBB51C3D6C2000C326F5 /* FJSettingGroup.m */; };
+		1593983C1C3EB9EA00379537 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 159398381C3EB9EA00379537 /* MBProgressHUD.bundle */; };
+		1593983D1C3EB9EA00379537 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1593983A1C3EB9EA00379537 /* MBProgressHUD.m */; };
+		159398401C3EBA4700379537 /* MBProgressHUD+FJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 1593983F1C3EBA4700379537 /* MBProgressHUD+FJ.m */; };
+		15CBA32E1C3E78AA00B40A99 /* FJSettingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15CBA32D1C3E78AA00B40A99 /* FJSettingTableViewCell.m */; };
+		15CBA3311C3E78EE00B40A99 /* FJSettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 15CBA3301C3E78EE00B40A99 /* FJSettingItem.m */; };
+		15CBA3341C3E791600B40A99 /* FJSettingSwitchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 15CBA3331C3E791600B40A99 /* FJSettingSwitchItem.m */; };
+		15CBA3371C3E792A00B40A99 /* FJSettingArrowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 15CBA3361C3E792A00B40A99 /* FJSettingArrowItem.m */; };
+		15CBA33D1C3E82E400B40A99 /* FJSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15CBA33C1C3E82E400B40A99 /* FJSettingViewController.m */; };
+		15D1FC121C3A67F600EE6C65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15D1FC101C3A67F600EE6C65 /* Main.storyboard */; };
+		15D1FC141C3A67F600EE6C65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15D1FC131C3A67F600EE6C65 /* Assets.xcassets */; };
+		15D1FC171C3A67F600EE6C65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15D1FC151C3A67F600EE6C65 /* LaunchScreen.storyboard */; };
+		15D1FC3D1C3A786C00EE6C65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D1FC391C3A786C00EE6C65 /* AppDelegate.m */; };
+		15D1FC3E1C3A786C00EE6C65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D1FC3C1C3A786C00EE6C65 /* main.m */; };
+		15D1FC411C3A88DD00EE6C65 /* FJHallTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D1FC401C3A88DD00EE6C65 /* FJHallTableViewController.m */; };
+		15D1FC441C3A891400EE6C65 /* FJArenaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D1FC431C3A891400EE6C65 /* FJArenaViewController.m */; };
+		15D1FC471C3A894600EE6C65 /* FJDiscoverTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D1FC461C3A894600EE6C65 /* FJDiscoverTableViewController.m */; };
+		15D1FC4A1C3A896500EE6C65 /* FJHistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D1FC491C3A896500EE6C65 /* FJHistoryTableViewController.m */; };
+		15D1FC4D1C3A898400EE6C65 /* FJMyLotteryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D1FC4C1C3A898400EE6C65 /* FJMyLotteryViewController.m */; };
+		15D1FC501C3A8B7400EE6C65 /* FJTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D1FC4F1C3A8B7400EE6C65 /* FJTabBarViewController.m */; };
+		15DC5A601C3AB2100043C969 /* FJNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DC5A5F1C3AB2100043C969 /* FJNavigationViewController.m */; };
+		15DC5A631C3AB4DC0043C969 /* UIImage+FJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DC5A621C3AB4DC0043C969 /* UIImage+FJ.m */; };
+		15DC5A661C3ABAF00043C969 /* FJCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DC5A651C3ABAF00043C969 /* FJCoverView.m */; };
+		15DC5A691C3ABE860043C969 /* FJPopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DC5A681C3ABE860043C969 /* FJPopMenu.m */; };
+		15DC5A6B1C3ABE9A0043C969 /* FJPopMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15DC5A6A1C3ABE9A0043C969 /* FJPopMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		152953A01C3F41D100FB1FD7 /* FJPushAndReminderTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJPushAndReminderTableViewController.h; sourceTree = "<group>"; };
+		152953A11C3F41D100FB1FD7 /* FJPushAndReminderTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJPushAndReminderTableViewController.m; sourceTree = "<group>"; };
+		152953A31C3F42DD00FB1FD7 /* FJScorePushSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJScorePushSettingTableViewController.h; sourceTree = "<group>"; };
+		152953A41C3F42DD00FB1FD7 /* FJScorePushSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJScorePushSettingTableViewController.m; sourceTree = "<group>"; };
+		152953A61C3F431900FB1FD7 /* FJLiveAwardSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJLiveAwardSettingTableViewController.h; sourceTree = "<group>"; };
+		152953A71C3F431900FB1FD7 /* FJLiveAwardSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJLiveAwardSettingTableViewController.m; sourceTree = "<group>"; };
+		152953AC1C3F582B00FB1FD7 /* FJRootViewControllerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJRootViewControllerTool.h; sourceTree = "<group>"; };
+		152953AD1C3F582B00FB1FD7 /* FJRootViewControllerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJRootViewControllerTool.m; sourceTree = "<group>"; };
+		152953AF1C3F5A5C00FB1FD7 /* FJSaveTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJSaveTool.h; sourceTree = "<group>"; };
+		152953B01C3F5A5C00FB1FD7 /* FJSaveTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJSaveTool.m; sourceTree = "<group>"; };
+		1534AB341C3A96D2009085EF /* FJTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJTabBar.h; sourceTree = "<group>"; };
+		1534AB351C3A96D2009085EF /* FJTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJTabBar.m; sourceTree = "<group>"; };
+		1534AB371C3A98A6009085EF /* FJTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJTabBarButton.h; sourceTree = "<group>"; };
+		1534AB381C3A98A6009085EF /* FJTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJTabBarButton.m; sourceTree = "<group>"; };
+		157C3BC91C3B5AEF00424A4B /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		157C3BCA1C3B5AEF00424A4B /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		157C3BCC1C3B5B8700424A4B /* FJMyLotteryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FJMyLotteryViewController.xib; sourceTree = "<group>"; };
+		157C3BCE1C3B692300424A4B /* CaiPiao.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaiPiao.pch; sourceTree = "<group>"; };
+		157C3BCF1C3B9A1700424A4B /* FJArenaNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJArenaNavigationViewController.h; sourceTree = "<group>"; };
+		157C3BD01C3B9A1700424A4B /* FJArenaNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJArenaNavigationViewController.m; sourceTree = "<group>"; };
+		157C3BD41C3BA6F100424A4B /* FJButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJButton.h; sourceTree = "<group>"; };
+		157C3BD51C3BA6F100424A4B /* FJButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJButton.m; sourceTree = "<group>"; };
+		157C3BD71C3BA8B300424A4B /* FJBuyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJBuyViewController.h; sourceTree = "<group>"; };
+		157C3BD81C3BA8B300424A4B /* FJBuyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJBuyViewController.m; sourceTree = "<group>"; };
+		157C3BDA1C3BC77900424A4B /* FJDiscoverTableViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FJDiscoverTableViewController.storyboard; sourceTree = "<group>"; };
+		157C3BE01C3BD51100424A4B /* FJNewFeatureCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJNewFeatureCollectionViewController.h; sourceTree = "<group>"; };
+		157C3BE11C3BD51100424A4B /* FJNewFeatureCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJNewFeatureCollectionViewController.m; sourceTree = "<group>"; };
+		1582FBAA1C3D4CDB00C326F5 /* FJNewFeatureCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJNewFeatureCollectionViewCell.h; sourceTree = "<group>"; };
+		1582FBAB1C3D4CDB00C326F5 /* FJNewFeatureCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJNewFeatureCollectionViewCell.m; sourceTree = "<group>"; };
+		1582FBB11C3D69F800C326F5 /* FJBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJBaseTableViewController.h; sourceTree = "<group>"; };
+		1582FBB21C3D69F800C326F5 /* FJBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJBaseTableViewController.m; sourceTree = "<group>"; };
+		1582FBB41C3D6C2000C326F5 /* FJSettingGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJSettingGroup.h; sourceTree = "<group>"; };
+		1582FBB51C3D6C2000C326F5 /* FJSettingGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJSettingGroup.m; sourceTree = "<group>"; };
+		159398381C3EB9EA00379537 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		159398391C3EB9EA00379537 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		1593983A1C3EB9EA00379537 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		1593983E1C3EBA4700379537 /* MBProgressHUD+FJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+FJ.h"; sourceTree = "<group>"; };
+		1593983F1C3EBA4700379537 /* MBProgressHUD+FJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+FJ.m"; sourceTree = "<group>"; };
+		15CBA32C1C3E78AA00B40A99 /* FJSettingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJSettingTableViewCell.h; sourceTree = "<group>"; };
+		15CBA32D1C3E78AA00B40A99 /* FJSettingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJSettingTableViewCell.m; sourceTree = "<group>"; };
+		15CBA32F1C3E78EE00B40A99 /* FJSettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJSettingItem.h; sourceTree = "<group>"; };
+		15CBA3301C3E78EE00B40A99 /* FJSettingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJSettingItem.m; sourceTree = "<group>"; };
+		15CBA3321C3E791600B40A99 /* FJSettingSwitchItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJSettingSwitchItem.h; sourceTree = "<group>"; };
+		15CBA3331C3E791600B40A99 /* FJSettingSwitchItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJSettingSwitchItem.m; sourceTree = "<group>"; };
+		15CBA3351C3E792A00B40A99 /* FJSettingArrowItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJSettingArrowItem.h; sourceTree = "<group>"; };
+		15CBA3361C3E792A00B40A99 /* FJSettingArrowItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJSettingArrowItem.m; sourceTree = "<group>"; };
+		15CBA33B1C3E82E400B40A99 /* FJSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJSettingViewController.h; sourceTree = "<group>"; };
+		15CBA33C1C3E82E400B40A99 /* FJSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJSettingViewController.m; sourceTree = "<group>"; };
+		15D1FC041C3A67F500EE6C65 /* CaiPiao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaiPiao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15D1FC111C3A67F600EE6C65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15D1FC131C3A67F600EE6C65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15D1FC161C3A67F600EE6C65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15D1FC181C3A67F600EE6C65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15D1FC381C3A786C00EE6C65 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		15D1FC391C3A786C00EE6C65 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		15D1FC3C1C3A786C00EE6C65 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = FJClasses/Other/main.m; sourceTree = "<group>"; };
+		15D1FC3F1C3A88DD00EE6C65 /* FJHallTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJHallTableViewController.h; sourceTree = "<group>"; };
+		15D1FC401C3A88DD00EE6C65 /* FJHallTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJHallTableViewController.m; sourceTree = "<group>"; };
+		15D1FC421C3A891400EE6C65 /* FJArenaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJArenaViewController.h; sourceTree = "<group>"; };
+		15D1FC431C3A891400EE6C65 /* FJArenaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJArenaViewController.m; sourceTree = "<group>"; };
+		15D1FC451C3A894600EE6C65 /* FJDiscoverTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJDiscoverTableViewController.h; sourceTree = "<group>"; };
+		15D1FC461C3A894600EE6C65 /* FJDiscoverTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJDiscoverTableViewController.m; sourceTree = "<group>"; };
+		15D1FC481C3A896500EE6C65 /* FJHistoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJHistoryTableViewController.h; sourceTree = "<group>"; };
+		15D1FC491C3A896500EE6C65 /* FJHistoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJHistoryTableViewController.m; sourceTree = "<group>"; };
+		15D1FC4B1C3A898400EE6C65 /* FJMyLotteryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJMyLotteryViewController.h; sourceTree = "<group>"; };
+		15D1FC4C1C3A898400EE6C65 /* FJMyLotteryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJMyLotteryViewController.m; sourceTree = "<group>"; };
+		15D1FC4E1C3A8B7400EE6C65 /* FJTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJTabBarViewController.h; sourceTree = "<group>"; };
+		15D1FC4F1C3A8B7400EE6C65 /* FJTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJTabBarViewController.m; sourceTree = "<group>"; };
+		15DC5A5E1C3AB2100043C969 /* FJNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJNavigationViewController.h; sourceTree = "<group>"; };
+		15DC5A5F1C3AB2100043C969 /* FJNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJNavigationViewController.m; sourceTree = "<group>"; };
+		15DC5A611C3AB4DC0043C969 /* UIImage+FJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FJ.h"; sourceTree = "<group>"; };
+		15DC5A621C3AB4DC0043C969 /* UIImage+FJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FJ.m"; sourceTree = "<group>"; };
+		15DC5A641C3ABAF00043C969 /* FJCoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJCoverView.h; sourceTree = "<group>"; };
+		15DC5A651C3ABAF00043C969 /* FJCoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJCoverView.m; sourceTree = "<group>"; };
+		15DC5A671C3ABE860043C969 /* FJPopMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJPopMenu.h; sourceTree = "<group>"; };
+		15DC5A681C3ABE860043C969 /* FJPopMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJPopMenu.m; sourceTree = "<group>"; };
+		15DC5A6A1C3ABE9A0043C969 /* FJPopMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FJPopMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15D1FC011C3A67F500EE6C65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		152953A91C3F57B700FB1FD7 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				152953AA1C3F57B700FB1FD7 /* RootVC */,
+				152953AB1C3F57B700FB1FD7 /* SaveTool */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		152953AA1C3F57B700FB1FD7 /* RootVC */ = {
+			isa = PBXGroup;
+			children = (
+				152953AC1C3F582B00FB1FD7 /* FJRootViewControllerTool.h */,
+				152953AD1C3F582B00FB1FD7 /* FJRootViewControllerTool.m */,
+			);
+			path = RootVC;
+			sourceTree = "<group>";
+		};
+		152953AB1C3F57B700FB1FD7 /* SaveTool */ = {
+			isa = PBXGroup;
+			children = (
+				152953AF1C3F5A5C00FB1FD7 /* FJSaveTool.h */,
+				152953B01C3F5A5C00FB1FD7 /* FJSaveTool.m */,
+			);
+			path = SaveTool;
+			sourceTree = "<group>";
+		};
+		157C3BDC1C3BD3F800424A4B /* NewFeature(新特性) */ = {
+			isa = PBXGroup;
+			children = (
+				157C3BDD1C3BD3F800424A4B /* Controller */,
+				157C3BDE1C3BD3F800424A4B /* Model */,
+				157C3BDF1C3BD3F800424A4B /* View */,
+			);
+			path = "NewFeature(新特性)";
+			sourceTree = "<group>";
+		};
+		157C3BDD1C3BD3F800424A4B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				157C3BE01C3BD51100424A4B /* FJNewFeatureCollectionViewController.h */,
+				157C3BE11C3BD51100424A4B /* FJNewFeatureCollectionViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		157C3BDE1C3BD3F800424A4B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		157C3BDF1C3BD3F800424A4B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1582FBAA1C3D4CDB00C326F5 /* FJNewFeatureCollectionViewCell.h */,
+				1582FBAB1C3D4CDB00C326F5 /* FJNewFeatureCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1582FBAD1C3D659600C326F5 /* Set(设置) */ = {
+			isa = PBXGroup;
+			children = (
+				1582FBAE1C3D659600C326F5 /* Controller */,
+				1582FBAF1C3D659600C326F5 /* Model */,
+				1582FBB01C3D659600C326F5 /* View */,
+			);
+			path = "Set(设置)";
+			sourceTree = "<group>";
+		};
+		1582FBAE1C3D659600C326F5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1582FBB11C3D69F800C326F5 /* FJBaseTableViewController.h */,
+				1582FBB21C3D69F800C326F5 /* FJBaseTableViewController.m */,
+				15CBA33B1C3E82E400B40A99 /* FJSettingViewController.h */,
+				15CBA33C1C3E82E400B40A99 /* FJSettingViewController.m */,
+				152953A01C3F41D100FB1FD7 /* FJPushAndReminderTableViewController.h */,
+				152953A11C3F41D100FB1FD7 /* FJPushAndReminderTableViewController.m */,
+				152953A31C3F42DD00FB1FD7 /* FJScorePushSettingTableViewController.h */,
+				152953A41C3F42DD00FB1FD7 /* FJScorePushSettingTableViewController.m */,
+				152953A61C3F431900FB1FD7 /* FJLiveAwardSettingTableViewController.h */,
+				152953A71C3F431900FB1FD7 /* FJLiveAwardSettingTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1582FBAF1C3D659600C326F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1582FBB41C3D6C2000C326F5 /* FJSettingGroup.h */,
+				1582FBB51C3D6C2000C326F5 /* FJSettingGroup.m */,
+				15CBA32F1C3E78EE00B40A99 /* FJSettingItem.h */,
+				15CBA3301C3E78EE00B40A99 /* FJSettingItem.m */,
+				15CBA3321C3E791600B40A99 /* FJSettingSwitchItem.h */,
+				15CBA3331C3E791600B40A99 /* FJSettingSwitchItem.m */,
+				15CBA3351C3E792A00B40A99 /* FJSettingArrowItem.h */,
+				15CBA3361C3E792A00B40A99 /* FJSettingArrowItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1582FBB01C3D659600C326F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15CBA32C1C3E78AA00B40A99 /* FJSettingTableViewCell.h */,
+				15CBA32D1C3E78AA00B40A99 /* FJSettingTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		159398351C3EB9EA00379537 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				159398381C3EB9EA00379537 /* MBProgressHUD.bundle */,
+				159398391C3EB9EA00379537 /* MBProgressHUD.h */,
+				1593983A1C3EB9EA00379537 /* MBProgressHUD.m */,
+				1593983E1C3EBA4700379537 /* MBProgressHUD+FJ.h */,
+				1593983F1C3EBA4700379537 /* MBProgressHUD+FJ.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		15D1FBFB1C3A67F500EE6C65 = {
+			isa = PBXGroup;
+			children = (
+				15D1FC061C3A67F500EE6C65 /* CaiPiao */,
+				15D1FC051C3A67F500EE6C65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15D1FC051C3A67F500EE6C65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15D1FC041C3A67F500EE6C65 /* CaiPiao.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15D1FC061C3A67F500EE6C65 /* CaiPiao */ = {
+			isa = PBXGroup;
+			children = (
+				15D1FC1E1C3A786C00EE6C65 /* FJClasses */,
+				15D1FC131C3A67F600EE6C65 /* Assets.xcassets */,
+				15D1FC071C3A67F500EE6C65 /* Supporting Files */,
+			);
+			name = CaiPiao;
+			path = "01.彩票练习";
+			sourceTree = "<group>";
+		};
+		15D1FC071C3A67F500EE6C65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15D1FC3C1C3A786C00EE6C65 /* main.m */,
+				15D1FC101C3A67F600EE6C65 /* Main.storyboard */,
+				15D1FC151C3A67F600EE6C65 /* LaunchScreen.storyboard */,
+				15D1FC181C3A67F600EE6C65 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15D1FC1E1C3A786C00EE6C65 /* FJClasses */ = {
+			isa = PBXGroup;
+			children = (
+				15D1FC2F1C3A786C00EE6C65 /* main(主要) */,
+				157C3BDC1C3BD3F800424A4B /* NewFeature(新特性) */,
+				15D1FC271C3A786C00EE6C65 /* Hall(购彩大厅) */,
+				15D1FC1F1C3A786C00EE6C65 /* Arena(竞技场) */,
+				15D1FC231C3A786C00EE6C65 /* Discover(发现) */,
+				15D1FC2B1C3A786C00EE6C65 /* History(开奖信息) */,
+				15D1FC331C3A786C00EE6C65 /* MyLottery(我的彩票) */,
+				1582FBAD1C3D659600C326F5 /* Set(设置) */,
+				152953A91C3F57B700FB1FD7 /* Tool */,
+				15D1FC371C3A786C00EE6C65 /* Other */,
+			);
+			path = FJClasses;
+			sourceTree = "<group>";
+		};
+		15D1FC1F1C3A786C00EE6C65 /* Arena(竞技场) */ = {
+			isa = PBXGroup;
+			children = (
+				15D1FC201C3A786C00EE6C65 /* Controller */,
+				15D1FC211C3A786C00EE6C65 /* Model */,
+				15D1FC221C3A786C00EE6C65 /* View */,
+			);
+			path = "Arena(竞技场)";
+			sourceTree = "<group>";
+		};
+		15D1FC201C3A786C00EE6C65 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				15D1FC421C3A891400EE6C65 /* FJArenaViewController.h */,
+				15D1FC431C3A891400EE6C65 /* FJArenaViewController.m */,
+				157C3BCF1C3B9A1700424A4B /* FJArenaNavigationViewController.h */,
+				157C3BD01C3B9A1700424A4B /* FJArenaNavigationViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		15D1FC211C3A786C00EE6C65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		15D1FC221C3A786C00EE6C65 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		15D1FC231C3A786C00EE6C65 /* Discover(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				15D1FC241C3A786C00EE6C65 /* Controller */,
+				15D1FC251C3A786C00EE6C65 /* Model */,
+				15D1FC261C3A786C00EE6C65 /* View */,
+			);
+			path = "Discover(发现)";
+			sourceTree = "<group>";
+		};
+		15D1FC241C3A786C00EE6C65 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				15D1FC451C3A894600EE6C65 /* FJDiscoverTableViewController.h */,
+				15D1FC461C3A894600EE6C65 /* FJDiscoverTableViewController.m */,
+				157C3BDA1C3BC77900424A4B /* FJDiscoverTableViewController.storyboard */,
+				157C3BD71C3BA8B300424A4B /* FJBuyViewController.h */,
+				157C3BD81C3BA8B300424A4B /* FJBuyViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		15D1FC251C3A786C00EE6C65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		15D1FC261C3A786C00EE6C65 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				157C3BD41C3BA6F100424A4B /* FJButton.h */,
+				157C3BD51C3BA6F100424A4B /* FJButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		15D1FC271C3A786C00EE6C65 /* Hall(购彩大厅) */ = {
+			isa = PBXGroup;
+			children = (
+				15D1FC281C3A786C00EE6C65 /* Controller */,
+				15D1FC291C3A786C00EE6C65 /* Model */,
+				15D1FC2A1C3A786C00EE6C65 /* View */,
+			);
+			path = "Hall(购彩大厅)";
+			sourceTree = "<group>";
+		};
+		15D1FC281C3A786C00EE6C65 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				15D1FC3F1C3A88DD00EE6C65 /* FJHallTableViewController.h */,
+				15D1FC401C3A88DD00EE6C65 /* FJHallTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		15D1FC291C3A786C00EE6C65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		15D1FC2A1C3A786C00EE6C65 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15DC5A641C3ABAF00043C969 /* FJCoverView.h */,
+				15DC5A651C3ABAF00043C969 /* FJCoverView.m */,
+				15DC5A671C3ABE860043C969 /* FJPopMenu.h */,
+				15DC5A681C3ABE860043C969 /* FJPopMenu.m */,
+				15DC5A6A1C3ABE9A0043C969 /* FJPopMenu.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		15D1FC2B1C3A786C00EE6C65 /* History(开奖信息) */ = {
+			isa = PBXGroup;
+			children = (
+				15D1FC2C1C3A786C00EE6C65 /* Controller */,
+				15D1FC2D1C3A786C00EE6C65 /* Model */,
+				15D1FC2E1C3A786C00EE6C65 /* View */,
+			);
+			path = "History(开奖信息)";
+			sourceTree = "<group>";
+		};
+		15D1FC2C1C3A786C00EE6C65 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				15D1FC481C3A896500EE6C65 /* FJHistoryTableViewController.h */,
+				15D1FC491C3A896500EE6C65 /* FJHistoryTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		15D1FC2D1C3A786C00EE6C65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		15D1FC2E1C3A786C00EE6C65 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		15D1FC2F1C3A786C00EE6C65 /* main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+				15D1FC301C3A786C00EE6C65 /* Controller */,
+				15D1FC311C3A786C00EE6C65 /* Model */,
+				15D1FC321C3A786C00EE6C65 /* View */,
+			);
+			path = "main(主要)";
+			sourceTree = "<group>";
+		};
+		15D1FC301C3A786C00EE6C65 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				15D1FC4E1C3A8B7400EE6C65 /* FJTabBarViewController.h */,
+				15D1FC4F1C3A8B7400EE6C65 /* FJTabBarViewController.m */,
+				15DC5A5E1C3AB2100043C969 /* FJNavigationViewController.h */,
+				15DC5A5F1C3AB2100043C969 /* FJNavigationViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		15D1FC311C3A786C00EE6C65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		15D1FC321C3A786C00EE6C65 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1534AB341C3A96D2009085EF /* FJTabBar.h */,
+				1534AB351C3A96D2009085EF /* FJTabBar.m */,
+				1534AB371C3A98A6009085EF /* FJTabBarButton.h */,
+				1534AB381C3A98A6009085EF /* FJTabBarButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		15D1FC331C3A786C00EE6C65 /* MyLottery(我的彩票) */ = {
+			isa = PBXGroup;
+			children = (
+				15D1FC341C3A786C00EE6C65 /* Controller */,
+				15D1FC351C3A786C00EE6C65 /* Model */,
+				15D1FC361C3A786C00EE6C65 /* View */,
+			);
+			path = "MyLottery(我的彩票)";
+			sourceTree = "<group>";
+		};
+		15D1FC341C3A786C00EE6C65 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				15D1FC4B1C3A898400EE6C65 /* FJMyLotteryViewController.h */,
+				15D1FC4C1C3A898400EE6C65 /* FJMyLotteryViewController.m */,
+				157C3BCC1C3B5B8700424A4B /* FJMyLotteryViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		15D1FC351C3A786C00EE6C65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		15D1FC361C3A786C00EE6C65 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		15D1FC371C3A786C00EE6C65 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				15D1FC381C3A786C00EE6C65 /* AppDelegate.h */,
+				15D1FC391C3A786C00EE6C65 /* AppDelegate.m */,
+				15D1FC3A1C3A786C00EE6C65 /* Category */,
+				15D1FC3B1C3A786C00EE6C65 /* Lib */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		15D1FC3A1C3A786C00EE6C65 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				157C3BC91C3B5AEF00424A4B /* UIView+Frame.h */,
+				157C3BCA1C3B5AEF00424A4B /* UIView+Frame.m */,
+				15DC5A611C3AB4DC0043C969 /* UIImage+FJ.h */,
+				15DC5A621C3AB4DC0043C969 /* UIImage+FJ.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		15D1FC3B1C3A786C00EE6C65 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				159398351C3EB9EA00379537 /* MBProgressHUD */,
+				157C3BCE1C3B692300424A4B /* CaiPiao.pch */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15D1FC031C3A67F500EE6C65 /* CaiPiao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15D1FC1B1C3A67F600EE6C65 /* Build configuration list for PBXNativeTarget "CaiPiao" */;
+			buildPhases = (
+				15D1FC001C3A67F500EE6C65 /* Sources */,
+				15D1FC011C3A67F500EE6C65 /* Frameworks */,
+				15D1FC021C3A67F500EE6C65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CaiPiao;
+			productName = "01.彩票练习";
+			productReference = 15D1FC041C3A67F500EE6C65 /* CaiPiao.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15D1FBFC1C3A67F500EE6C65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FJ;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = FRAJ;
+				TargetAttributes = {
+					15D1FC031C3A67F500EE6C65 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9584UY6L75;
+					};
+				};
+			};
+			buildConfigurationList = 15D1FBFF1C3A67F500EE6C65 /* Build configuration list for PBXProject "CaiPiao" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15D1FBFB1C3A67F500EE6C65;
+			productRefGroup = 15D1FC051C3A67F500EE6C65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15D1FC031C3A67F500EE6C65 /* CaiPiao */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15D1FC021C3A67F500EE6C65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D1FC171C3A67F600EE6C65 /* LaunchScreen.storyboard in Resources */,
+				15D1FC141C3A67F600EE6C65 /* Assets.xcassets in Resources */,
+				157C3BCD1C3B5B8700424A4B /* FJMyLotteryViewController.xib in Resources */,
+				15DC5A6B1C3ABE9A0043C969 /* FJPopMenu.xib in Resources */,
+				15D1FC121C3A67F600EE6C65 /* Main.storyboard in Resources */,
+				157C3BDB1C3BC77900424A4B /* FJDiscoverTableViewController.storyboard in Resources */,
+				1593983C1C3EB9EA00379537 /* MBProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15D1FC001C3A67F500EE6C65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1582FBAC1C3D4CDB00C326F5 /* FJNewFeatureCollectionViewCell.m in Sources */,
+				157C3BD61C3BA6F100424A4B /* FJButton.m in Sources */,
+				15D1FC4D1C3A898400EE6C65 /* FJMyLotteryViewController.m in Sources */,
+				15CBA32E1C3E78AA00B40A99 /* FJSettingTableViewCell.m in Sources */,
+				1534AB391C3A98A6009085EF /* FJTabBarButton.m in Sources */,
+				157C3BD91C3BA8B300424A4B /* FJBuyViewController.m in Sources */,
+				15D1FC441C3A891400EE6C65 /* FJArenaViewController.m in Sources */,
+				1582FBB61C3D6C2000C326F5 /* FJSettingGroup.m in Sources */,
+				1593983D1C3EB9EA00379537 /* MBProgressHUD.m in Sources */,
+				152953B11C3F5A5C00FB1FD7 /* FJSaveTool.m in Sources */,
+				157C3BE21C3BD51100424A4B /* FJNewFeatureCollectionViewController.m in Sources */,
+				157C3BCB1C3B5AEF00424A4B /* UIView+Frame.m in Sources */,
+				159398401C3EBA4700379537 /* MBProgressHUD+FJ.m in Sources */,
+				152953A81C3F431900FB1FD7 /* FJLiveAwardSettingTableViewController.m in Sources */,
+				15DC5A631C3AB4DC0043C969 /* UIImage+FJ.m in Sources */,
+				15D1FC3D1C3A786C00EE6C65 /* AppDelegate.m in Sources */,
+				157C3BD11C3B9A1700424A4B /* FJArenaNavigationViewController.m in Sources */,
+				15CBA33D1C3E82E400B40A99 /* FJSettingViewController.m in Sources */,
+				1582FBB31C3D69F800C326F5 /* FJBaseTableViewController.m in Sources */,
+				15DC5A601C3AB2100043C969 /* FJNavigationViewController.m in Sources */,
+				152953A51C3F42DD00FB1FD7 /* FJScorePushSettingTableViewController.m in Sources */,
+				1534AB361C3A96D2009085EF /* FJTabBar.m in Sources */,
+				152953AE1C3F582B00FB1FD7 /* FJRootViewControllerTool.m in Sources */,
+				15D1FC471C3A894600EE6C65 /* FJDiscoverTableViewController.m in Sources */,
+				152953A21C3F41D100FB1FD7 /* FJPushAndReminderTableViewController.m in Sources */,
+				15D1FC3E1C3A786C00EE6C65 /* main.m in Sources */,
+				15CBA3341C3E791600B40A99 /* FJSettingSwitchItem.m in Sources */,
+				15D1FC4A1C3A896500EE6C65 /* FJHistoryTableViewController.m in Sources */,
+				15D1FC501C3A8B7400EE6C65 /* FJTabBarViewController.m in Sources */,
+				15D1FC411C3A88DD00EE6C65 /* FJHallTableViewController.m in Sources */,
+				15DC5A691C3ABE860043C969 /* FJPopMenu.m in Sources */,
+				15CBA3371C3E792A00B40A99 /* FJSettingArrowItem.m in Sources */,
+				15DC5A661C3ABAF00043C969 /* FJCoverView.m in Sources */,
+				15CBA3311C3E78EE00B40A99 /* FJSettingItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		15D1FC101C3A67F600EE6C65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15D1FC111C3A67F600EE6C65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15D1FC151C3A67F600EE6C65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15D1FC161C3A67F600EE6C65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15D1FC191C3A67F600EE6C65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		15D1FC1A1C3A67F600EE6C65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15D1FC1C1C3A67F600EE6C65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "01.彩票练习/FJClasses/Other/Lib/CaiPiao.pch";
+				INFOPLIST_FILE = "01.彩票练习/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fraj7.com.CaiPiao;
+				PRODUCT_NAME = CaiPiao;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		15D1FC1D1C3A67F600EE6C65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "01.彩票练习/FJClasses/Other/Lib/CaiPiao.pch";
+				INFOPLIST_FILE = "01.彩票练习/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fraj7.com.CaiPiao;
+				PRODUCT_NAME = CaiPiao;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15D1FBFF1C3A67F500EE6C65 /* Build configuration list for PBXProject "CaiPiao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15D1FC191C3A67F600EE6C65 /* Debug */,
+				15D1FC1A1C3A67F600EE6C65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15D1FC1B1C3A67F600EE6C65 /* Build configuration list for PBXNativeTarget "CaiPiao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15D1FC1C1C3A67F600EE6C65 /* Debug */,
+				15D1FC1D1C3A67F600EE6C65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15D1FBFC1C3A67F500EE6C65 /* Project object */;
+}
